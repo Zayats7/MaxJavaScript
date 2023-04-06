@@ -1,4 +1,4 @@
-package src.test.java.Layers;
+package java.Layers;
 
 import org.openqa.selenium.By;
 

@@ -1,4 +1,4 @@
-package src.test.java.LoginPages;
+package java.LoginPages;
 
 import src.test.java.TestsMail.TestAddSecondAccount;
 import src.test.java.TestsMail.TestSendMail;
@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class LoginLeer {
 
-    private static final Logger LOGGER = Logger.getLogger(String.valueOf(NewMailLoginPage.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(src.test.java.LoginPages.NewMailLoginPage.class));
     private static final By LOGIN_BOX = By.xpath(".//input[contains(@name, 'username')]");
     private static final By PASSWORD_BOX = By.xpath(".//*[contains(@name, 'password')]");
     private static final By LOGIN_CONTENT = By.xpath(".//div[contains(@id, 'login-content')]");

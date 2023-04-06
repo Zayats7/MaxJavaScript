@@ -1,13 +1,13 @@
-package src.test.java.TestsMyVision;
+package java.TestsMyVision;
 
-import src.test.java.Base.MyVisionBase;
-import src.test.java.MainPages.MyVisionMainPage;
+import java.Base.MyVisionBase;
+import java.MainPages.MyVisionMainPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.logging.Logger;
 
-import static src.test.java.MainPages.MyVisionMainPage.SUBMIT_LAYER;
+import static java.MainPages.MyVisionMainPage.SUBMIT_LAYER;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -20,7 +20,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
  * \
  */
 public class TestFormDataSent extends MyVisionBase {
-    private static final Logger LOGGER = Logger.getLogger(String.valueOf(TestLayerTaskForm.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(src.test.java.TestsMyVision.TestLayerTaskForm.class));
 
     @Test
     @Tag("vision")

@@ -1,4 +1,4 @@
-package src.test.java.Base;
+package java.Base;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;

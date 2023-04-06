@@ -1,9 +1,9 @@
-package src.test.java.TestsMail;
+package java.TestsMail;
 
-import src.test.java.Base.MailBase;
-import src.test.java.LoginPages.LoginLeer;
-import src.test.java.LoginPages.MailLoginPage;
-import src.test.java.MainPages.MailMainPage;
+import java.Base.MailBase;
+import java.LoginPages.LoginLeer;
+import java.LoginPages.MailLoginPage;
+import java.MainPages.MailMainPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
