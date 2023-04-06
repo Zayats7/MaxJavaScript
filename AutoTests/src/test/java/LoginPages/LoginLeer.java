@@ -1,7 +1,7 @@
 package java.LoginPages;
 
-import src.test.java.TestsMail.TestAddSecondAccount;
-import src.test.java.TestsMail.TestSendMail;
+import java.TestsMail.TestAddSecondAccount;
+import java.TestsMail.TestSendMail;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class LoginLeer {
 
-    private static final Logger LOGGER = Logger.getLogger(String.valueOf(src.test.java.LoginPages.NewMailLoginPage.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(java.LoginPages.NewMailLoginPage.class));
     private static final By LOGIN_BOX = By.xpath(".//input[contains(@name, 'username')]");
     private static final By PASSWORD_BOX = By.xpath(".//*[contains(@name, 'password')]");
     private static final By LOGIN_CONTENT = By.xpath(".//div[contains(@id, 'login-content')]");

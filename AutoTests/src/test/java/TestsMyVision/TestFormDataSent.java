@@ -20,7 +20,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
  * \
  */
 public class TestFormDataSent extends MyVisionBase {
-    private static final Logger LOGGER = Logger.getLogger(String.valueOf(src.test.java.TestsMyVision.TestLayerTaskForm.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(java.TestsMyVision.TestLayerTaskForm.class));
 
     @Test
     @Tag("vision")

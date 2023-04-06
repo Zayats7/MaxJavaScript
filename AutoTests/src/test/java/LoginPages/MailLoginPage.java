@@ -1,6 +1,6 @@
 package java.LoginPages;
 
-import src.test.java.TestsMail.TestAddSecondAccount;
+import java.TestsMail.TestAddSecondAccount;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import com.codeborne.selenide.Selenide;
@@ -49,7 +49,7 @@ public class MailLoginPage {
     public void doPassword(String password) {
         LOGGER.warning("Проверяем видимость кнопки для ввода пароля и кликаем на нее");
         $(GO_TO_PASSWORD).shouldBe(visible).click();
-        String checkmail = $(src.test.java.LoginPages.NewMailLoginPage.CHECK_E_MAIL).shouldBe(visible).getText();
+        String checkmail = $(java.LoginPages.NewMailLoginPage.CHECK_E_MAIL).shouldBe(visible).getText();
         LOGGER.info("Сравниваем введенный адрес почты и отображаемый");
         Assertions.assertEquals(TestAddSecondAccount.LOGIN, checkmail, "Логины не совпадают");
         LOGGER.info("Находим поле для ввода пароля и вводим пароль");

@@ -33,7 +33,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class TestAddSecondAccount extends MailBase {
 
-    private static final Logger LOGGER = Logger.getLogger(String.valueOf(src.test.java.TestsMail.TestSendMail.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(java.TestsMail.TestSendMail.class));
     public static final String LOGIN = "margleibblan@mail.ru";
     private static final String PASSWORD = "qwedcxzasdfghjkl;'\\";
     public static final String SECOND_LOGIN = "mrgleibblan@mail.ru";
