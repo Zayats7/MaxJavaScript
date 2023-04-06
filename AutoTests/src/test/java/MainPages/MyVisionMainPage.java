@@ -1,4 +1,4 @@
-package MainPages;
+package src.test.java.MainPages;
 
 import org.openqa.selenium.By;
 

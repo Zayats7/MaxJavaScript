@@ -1,13 +1,13 @@
-package TestsMyVision;
+package src.test.java.TestsMyVision;
 
-import Base.MyVisionBase;
-import MainPages.MyVisionMainPage;
+import src.test.java.Base.MyVisionBase;
+import src.test.java.MainPages.MyVisionMainPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.logging.Logger;
 
-import static MainPages.MyVisionMainPage.SUBMIT_LAYER;
+import static src.test.java.MainPages.MyVisionMainPage.SUBMIT_LAYER;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;

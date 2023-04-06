@@ -1,4 +1,4 @@
-package LoginPages;
+package src.test.java.LoginPages;
 
 import org.openqa.selenium.By;
 import com.codeborne.selenide.Selenide;

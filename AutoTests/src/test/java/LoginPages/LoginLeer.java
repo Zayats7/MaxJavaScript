@@ -1,7 +1,7 @@
-package LoginPages;
+package src.test.java.LoginPages;
 
-import TestsMail.TestAddSecondAccount;
-import TestsMail.TestSendMail;
+import src.test.java.TestsMail.TestAddSecondAccount;
+import src.test.java.TestsMail.TestSendMail;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;

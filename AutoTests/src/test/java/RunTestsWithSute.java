@@ -1,5 +1,7 @@
-import TestsMyVision.TestBackupScrollToTop;
-import TestsMyVision.TestLayerTaskForm;
+package src.test.java;
+
+import src.test.java.TestsMyVision.TestBackupScrollToTop;
+import src.test.java.TestsMyVision.TestLayerTaskForm;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

@@ -1,7 +1,7 @@
-package TestsMyVision;
+package src.test.java.TestsMyVision;
 
-import Base.MyVisionBase;
-import MainPages.MyVisionMainPage;
+import src.test.java.Base.MyVisionBase;
+import src.test.java.MainPages.MyVisionMainPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
