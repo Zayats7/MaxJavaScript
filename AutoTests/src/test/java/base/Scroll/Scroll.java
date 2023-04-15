@@ -1,4 +1,4 @@
-package java.Base.Scroll;
+package Base.Scroll;
 
 /**
  * \* Created with IntelliJ IDEA.

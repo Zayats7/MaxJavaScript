@@ -1,8 +1,8 @@
-package java.TestsMyVision;
+package selenium.web.tests.TestsMyVision;
 
-import java.Base.MyVisionBase;
-import java.Layers.MyVisionOrderLayer;
-import java.MainPages.MyVisionMainPage;
+import Base.MyVisionBase;
+import selenium.web.Layers.MyVisionOrderLayer;
+import selenium.web.MainPages.MyVisionMainPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package java.Base;
+package Base;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
@@ -12,17 +12,17 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.logging.Logger;
 
 /**
- \* Created with IntelliJ IDEA.
- \* User: Alexei Zaitcev
- \* Description: Пэйдж для работы с браузером для мейла
- \*/
-
-public class MailBase {
+ * \* Created with IntelliJ IDEA.
+ * \* User: Alexei Zaitcev
+ * \* Date: 25.04.2022
+ * \* Description: Пэйдж для работы с браузером для MyVision
+ * \
+ */
+public class MyVisionBase {
 
     private static final Logger LOGGER = Logger.getLogger(String.valueOf(MailBase.class));
-    private static final String WEB_SITE = "https://mail.ru/";
+    private static final String WEB_SITE = "https://prmyvision.ru/";
     public WebDriver driver;
-
 
     @BeforeAll
     static void registerDriver() {
@@ -30,7 +30,7 @@ public class MailBase {
     }
 
     @BeforeEach
-     void startDriver() {
+    void startDriver() {
         LOGGER.info("Запускаем браузер");
         LOGGER.info("Переходим на страницу логина");
         Selenide.open(WEB_SITE);

@@ -1,19 +1,19 @@
-package java.LoginPages;
+package selenium.web.LoginPages;
 
-import java.TestsMail.TestAddSecondAccount;
-import java.TestsMail.TestSendMail;
+import selenium.web.tests.TestsMail.TestAddSecondAccount;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 
 import java.util.logging.Logger;
 
+
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginLeer {
 
-    private static final Logger LOGGER = Logger.getLogger(String.valueOf(java.LoginPages.NewMailLoginPage.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(NewMailLoginPage.class));
     private static final By LOGIN_BOX = By.xpath(".//input[contains(@name, 'username')]");
     private static final By PASSWORD_BOX = By.xpath(".//*[contains(@name, 'password')]");
     private static final By LOGIN_CONTENT = By.xpath(".//div[contains(@id, 'login-content')]");

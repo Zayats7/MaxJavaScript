@@ -1,4 +1,4 @@
-package java.Bot;
+package Bot;
 
 import org.openqa.selenium.By;
 

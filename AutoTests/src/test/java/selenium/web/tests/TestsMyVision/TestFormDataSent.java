@@ -1,13 +1,14 @@
-package java.TestsMyVision;
+package selenium.web.tests.TestsMyVision;
 
-import java.Base.MyVisionBase;
-import java.MainPages.MyVisionMainPage;
+import Base.MyVisionBase;
+import selenium.web.MainPages.MyVisionMainPage;
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.logging.Logger;
 
-import static java.MainPages.MyVisionMainPage.SUBMIT_LAYER;
+
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -20,7 +21,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
  * \
  */
 public class TestFormDataSent extends MyVisionBase {
-    private static final Logger LOGGER = Logger.getLogger(String.valueOf(java.TestsMyVision.TestLayerTaskForm.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(TestLayerTaskForm.class));
 
     @Test
     @Tag("vision")
@@ -41,7 +42,7 @@ public class TestFormDataSent extends MyVisionBase {
         mainPage.uploadFile("/Users/alexei77/Downloads/Johnny_tilda9720613.jpg");
         LOGGER.info("Нажимаем на кнопкуотправки данных");
         mainPage.submitButton();
-        assertThat($(SUBMIT_LAYER).shouldBe(visible.because("Не показалось подтверждение отправки данных с формы")));
+        assertThat(Selenide.$(MyVisionMainPage.SUBMIT_LAYER).shouldBe(visible.because("Не показалось подтверждение отправки данных с формы")));
         LOGGER.fine("Данные успешно отправлены");
     }
 }

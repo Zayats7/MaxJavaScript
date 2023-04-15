@@ -1,11 +1,12 @@
-package java.TestsMyVision;
+package selenium.web.tests.TestsMyVision;
 
-import java.Base.MyVisionBase;
-import java.MainPages.MyVisionMainPage;
+import Base.MyVisionBase;
+import selenium.web.MainPages.MyVisionMainPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.logging.Logger;
+
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -22,6 +23,7 @@ public class TestBackupScrollToTop extends MyVisionBase {
 
     @Test
     @Tag("vision")
+    @Tag("Smoke")
     public void testBackupScrollToTop(){
         LOGGER.info("тест проверяет работоспособность кнопки возвращения к началу страницы");
         MyVisionMainPage mainPage = new MyVisionMainPage();

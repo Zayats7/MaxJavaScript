@@ -1,4 +1,4 @@
-package java.MainPages;
+package selenium.web.MainPages;
 
 import org.openqa.selenium.By;
 

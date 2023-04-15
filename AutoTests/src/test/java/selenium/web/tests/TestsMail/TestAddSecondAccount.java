@@ -1,10 +1,11 @@
-package java.TestsMail;
+package selenium.web.tests.TestsMail;
 
-import java.Base.MailBase;
-import java.LoginPages.LoginLeer;
-import java.LoginPages.MailLoginPage;
-import java.MainPages.MailMainPage;
+import Base.MailBase;
+import selenium.web.LoginPages.LoginLeer;
+import selenium.web.LoginPages.MailLoginPage;
+import selenium.web.MainPages.MailMainPage;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.logging.Logger;
@@ -33,13 +34,14 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class TestAddSecondAccount extends MailBase {
 
-    private static final Logger LOGGER = Logger.getLogger(String.valueOf(java.TestsMail.TestSendMail.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(TestSendMail.class));
     public static final String LOGIN = "margleibblan@mail.ru";
     private static final String PASSWORD = "qwedcxzasdfghjkl;'\\";
     public static final String SECOND_LOGIN = "mrgleibblan@mail.ru";
     private static final String SECOND_PASSWORD = "qwedcxzasdfghjkl;'\\";
 
     @Test
+    @Tag("Smoke")
     public void testAddSecondAccount() {
         MailLoginPage loginPage = new MailLoginPage();
         LOGGER.info("Логин");

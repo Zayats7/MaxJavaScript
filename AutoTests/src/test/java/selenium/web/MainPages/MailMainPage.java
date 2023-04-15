@@ -1,4 +1,4 @@
-package java.MainPages;
+package selenium.web.MainPages;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;

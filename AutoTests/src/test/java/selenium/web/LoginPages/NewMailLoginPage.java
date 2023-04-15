@@ -1,4 +1,4 @@
-package java.LoginPages;
+package selenium.web.LoginPages;
 
 import org.openqa.selenium.By;
 import com.codeborne.selenide.Selenide;
